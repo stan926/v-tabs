@@ -1,0 +1,193 @@
+.no-gutter{
+    padding-right:0;
+    padding-left:0;
+}
+
+#side-news .title{
+  font-size:16px;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+#side-news .source{
+  color:#aaa;
+  text-align: center;
+}
+
+#side-news .paragraph{
+  overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+#side-news ul{
+	  list-style: none;
+    padding: 0px;
+      margin-bottom: 0px;
+}
+
+#side-news li{
+	height: 170px;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+
+#side-news .panel{
+	border:1px solid #ddd;
+}
+
+#side-news .panel-body{
+	padding: 5px;
+}
+
+#side-news .panel-body:last-child{
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+
+.topnav{
+	font-size: 16px;
+}
+
+.navbar-header img{
+	height: 45px;
+    display: inline;
+    border-radius: 30px;
+    border: 1px solid #eee;
+    margin-right: 10px;
+    float: left;
+}
+
+.panel{
+	border:0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+div.title{
+	color: #555;
+	font-size: 22px;
+    text-align: center;
+}
+div.title span {
+    display: inline-block;    
+}
+
+.navbar-header span{
+  color: #aaa;
+  font-weight: 100;
+  font-size: 9px;
+  margin-left: 5px;
+}
+
+#nav-bar-link a{
+	color:#aaa;
+	font-weight: normal;
+}
+
+#nav-bar-link a:hover{
+	color:#f00;
+}
+
+#nav-bar-link a.active{
+	color:#d00;
+}
+
+.bubble{
+	cursor:pointer;
+}
+
+
+.chart rect.left{
+    fill: steelblue;
+}
+
+.chart .rectM {
+    stroke: green;
+    stroke-width: 1;
+    fill: green;
+    fill-opacity: .2;
+}
+
+    .chart .rectM:hover {
+        fill: green;
+        fill-opacity: .5;
+    }
+
+.chart text {
+    font: 10px sans-serif;
+}
+
+.chart .title {
+    font: 15px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.score{
+	fill: #fff;
+}
+.right{
+	fill:rgb(218, 87, 87);
+}
+
+
+## Node Graph
+.node circle {
+	  fill: #000;
+	  stroke: steelblue;
+	  stroke-width: 3px;
+	}
+
+.node text { font: 12px sans-serif; }
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+
+table { 
+width: 100%;
+color: #333;
+font-family: sans-serif;
+border-collapse: 
+collapse; border-spacing: 0; 
+}
+
+td, th { 
+border: 1px solid transparent; /* No more visible border */
+height: 30px; 
+transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+td:nth-child(1){
+  text-align: center;
+}
+
+th {
+text-align: center;
+background: #DFDFDF;  /* Darken header a bit */
+font-weight: bold;
+}
+
+td {
+background: #FAFAFA;
+}
+
+/* Cells in even rows (2,4,6...) are one color */ 
+tr:nth-child(even) td { background: #F1F1F1; }   
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */ 
+tr:nth-child(odd) td { background: #FEFEFE; } 
